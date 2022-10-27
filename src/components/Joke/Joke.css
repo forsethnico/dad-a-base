@@ -1,0 +1,15 @@
+.joke-card {
+    color: black;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 24rem;
+    width: 30%;
+}
+
+.next-joke-btn {
+    background-color: rgb(25, 154, 126);
+    color: #ffffff;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 2px;
+}
