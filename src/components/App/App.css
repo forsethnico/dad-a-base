@@ -16,5 +16,15 @@ h1 {
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 1rem;
+}
+
+.error-message {
+    color: black;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 24rem;
+    width: 30%;
 }
 

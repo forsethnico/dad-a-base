@@ -32,7 +32,7 @@ class App extends Component {
           <main className = 'App'>
             <h1>DAD·A·BASE</h1>
             {!this.state.error && <Joke joke={this.state.joke} handleClick={this.handleClick}/>}
-            {this.state.error && (<h4 className="error-message">{this.state.error}</h4>)}         
+            {this.state.error && <h4 className="error-message">{this.state.error}</h4>}         
           </main>
         )
     }

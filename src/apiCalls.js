@@ -7,5 +7,11 @@ export const fetchJoke = () => {
                 'Accept': 'application/json'
             },
         })
-    .then(response => response.json())
-}
+        .then((response) => {
+            if (!response.ok) {
+              throw Error(response.status + ":" + response.text);
+            } else {
+              return response.json();
+            }
+          })
+        }
