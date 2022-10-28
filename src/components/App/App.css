@@ -1,12 +1,18 @@
+* {
+  z-index: 2;
+}
+
+
 .App {
+  display: flex;
   text-align: center;
   width: 100%;
   height: 100%;
+  justify-content: center;
 }
 
 html {
   height: 100%;
-  background-image: url('../../assets/dad.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -15,7 +21,7 @@ html {
 h1 {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: 'Damion', cursive;
   margin-top: 1rem;
 }
@@ -23,9 +29,21 @@ h1 {
 .error-message {
     color: black;
     position: absolute;
-    margin-top: -3rem;
-    margin-left: 24rem;
+    margin-top: 9rem;
+    margin-left: 21rem;
     width: 30%;
 }
 
+.dad-backdrop {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  margin-top: 2rem;
+}
 
+@media all and (min-width: 50em) {
+  .column {
+    float:left;
+    width: 50%;
+  }
+}
