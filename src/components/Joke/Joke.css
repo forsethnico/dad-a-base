@@ -1,9 +1,9 @@
 .joke-card {
     color: black;
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 9rem;
     margin-left: 23rem;
-    width: 24%;
+    width: 22%;
 }
 
 .next-joke-btn {
